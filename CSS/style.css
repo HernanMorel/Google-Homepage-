@@ -1,24 +1,48 @@
 ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    top: 0;
     overflow: hidden;
-    
+
 }
 li{
-    float:left;
+    float:right;
 }
 
 li a{
+    font-family: arial;
+    color: rgb(63,63,63);
     display: block;
-    padding: 14px 16px;
-    text-decoration: none;
     text-align: -webkit-center;
-}
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 14px;
 
-.logo {
+}
+ li a:hover{
+    text-decoration: underline;
+    position: relative;
+    bottom:2px;
+    
+ }
+.multibox{
+    height:23px;
+    color:
+    position:relative;
+    bottom:4px;
+}
+.signbutton{
+    background-color:rgb(68, 134, 249);
+    color: rgb(255,255,255);
+    border-radius: 3px;
+    border:none;
+    padding: 7px 10px;
+    position:relative;
+    bottom:7px;
+    font-weight:bold;
+    
+
+}
+/* .logo {
     width: 250px;
     height: 150px;
     text-align: center;
-}
+} */
