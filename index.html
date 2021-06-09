@@ -9,46 +9,39 @@
 </head>
 <body>
 
-   <header>
-    <div class="navbar">
-        <ul>
-            <li><a class="links" href="#"><button class="signingin"type="button">Sign in</button></a></li>
-            <li><a href="#multibox"><img class="multibox" src="images/apps_black_24dp.svg" title="Google apps"></a></li>
-            <li><a href="#">Images</a></li>
-            <li><a href="#">Gmail</a></li>
-
-            <li style><a href="#">Store</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-        </div>
+   <header id="header-nav-bar">
+            <span class="header-right sign-in-button">Sign in</span>
+            <span class="header-right multibox"><img src="images/apps_black_24dp.svg" title="Google apps"></span>
+            <span class="header-right header-footer-link">Images</span>
+            <span class="header-right header-footer-link">Gmail</span>
+            <span class="header-left header-footer-link">Store</span> 
+            <span class="header-left header-footer-link">About</span>
     </header> 
-    <main>  
 
-    <div class="logo"> 
-        <img attribute="photo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-    </div>
-    </div>
+    
+    <div class="main"> 
+     <img attribute="photo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <br>
+        <form action="">
+        <div id="searchbar-outside">
+            <input class="searchbar-inside">
+            <span><img class="search-by-voice" src="images/mic_black_24dp.svg" alt="voice"</span>
+        </div>
+        <br>
+        <div id="buttons">
+            <input type="submit" class="search-button" value="Google Search">
+            <input type="submit" class="search-button" value="I'm Feeling Lucky">
+           </div>
+        </form>
+    </div> 
 
-    <div class="searchbar">
-        <input class="searchbar" type="text" title="Search">
-        <a href="#"> <img class="voice"src="images/mic_black_24dp.svg" title="Search by Voice"></a>
-    </div>
-    <div class= buttons=>
-        <button class="button" type="button">Google Search</button>
-        <button class="button" type="button">I'm Feeling Lucky</button>
-        </div>
-    </main> 
-    <footer>
-        <div class="footer">
-            <ul>
-                <li><a href="#">Adversitsing</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">How Search Works</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
-        </div>
+    <footer id="footer-bottom-bar">  
+                <span class="footer-right header-footer-link">Settings</span>
+                <span class="footer-right header-footer-link">Terms</span>
+                <span class="footer-right header-footer-link">Privacy</span>
+                <span class="footer-left header-footer-link">How Search Works</span>
+                <span class="footer-left header-footer-link">Business</span>
+                <span class="footer-left header-footer-link">Advertising</span>
     </footer>
 </body>
 </html>
